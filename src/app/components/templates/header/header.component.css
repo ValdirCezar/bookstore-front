@@ -1,0 +1,26 @@
+.header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7e1c8f;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+img {
+    height: 3.5rem;
+}
+
+h1 {
+    padding-left: 1.2rem;
+    font-weight: 600;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 3px rgb(34, 33, 33);
+}

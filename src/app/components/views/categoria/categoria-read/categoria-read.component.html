@@ -4,6 +4,8 @@
         <h1>Categoria</h1>
     </div>
 
+    <button class="mat-elevation-z8" mat-stroked-button color="primary">NOVA CATEGORIA</button>
+
     <div class="mat-elevation-z8 content-table">
         <table class="table" mat-table [dataSource]="categorias">
       
@@ -24,11 +26,27 @@
               <th mat-header-cell *matHeaderCellDef> DESCRIÇÃO </th>
               <td mat-cell *matCellDef="let row"> {{ row.descricao }} </td>
             </ng-container>
+
+            <ng-container matColumnDef="livros">
+              <th mat-header-cell *matHeaderCellDef> LIVROS </th>
+              <td mat-cell *matCellDef="let row"> 
+                <a class="livros" href="#">
+                  <i class="material-icons">book</i>  
+                </a>
+              </td>
+            </ng-container>
           
             <!-- Symbol Column -->
             <ng-container matColumnDef="acoes">
-              <th mat-header-cell *matHeaderCellDef> AÇÕES </th>
-              <td mat-cell *matCellDef="let row">  </td>
+              <th class="mat-header" mat-header-cell *matHeaderCellDef> AÇÕES </th>
+              <td mat-cell *matCellDef="let row"> 
+                <a class="edit" href="#">
+                  <i class="material-icons">edit</i>
+                </a>  
+                <a class="delete" href="#">
+                  <i class="material-icons">delete</i>
+                </a> 
+              </td>
             </ng-container>
           
             <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>

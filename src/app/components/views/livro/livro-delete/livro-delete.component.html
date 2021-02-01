@@ -5,7 +5,6 @@
         <mat-label>Titulo</mat-label>
         <input matInput [(ngModel)]="livro.titulo" type="text" name="titulo" disabled>
     </mat-form-field>
-
     <mat-form-field class="form">
         <mat-label>Nome do autor</mat-label>
         <input matInput [(ngModel)]="livro.nome_autor" type="text" name="nome_autor" disabled>
@@ -17,7 +16,7 @@
     </mat-form-field>
 
     <div class="buttons">
-        <button (click)="delete()" [disabled]="getMessage()" class="mat-elevation-z8" mat-stroked-button color="primary"> DELETAR </button>
+        <button (click)="delete()" class="mat-elevation-z8" mat-stroked-button color="primary"> DELETAR </button>
         <button (click)="cancel()" class="mat-elevation-z8" mat-stroked-button color="warn"> CANCELAR </button>
     </div>
 

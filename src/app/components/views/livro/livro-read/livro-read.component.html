@@ -1,0 +1,16 @@
+<form>
+    <mat-card class="home mat-elevation-z4">
+        <mat-card-title class="title">{{ livro.titulo }}</mat-card-title>
+    </mat-card>
+
+    <mat-card class="home mat-elevation-z4">
+        <mat-card-subtitle class="subtitle">Por {{ livro.nome_autor }}</mat-card-subtitle>
+        <button (click)="cancel()" mat-stroked-button color="warn">
+            <mat-icon>keyboard_return</mat-icon>
+        </button>
+    </mat-card>
+
+    <mat-card class="home mat-elevation-z4">
+        <mat-card-subtitle class="subtitle">{{ livro.texto }}</mat-card-subtitle>
+    </mat-card>
+</form>

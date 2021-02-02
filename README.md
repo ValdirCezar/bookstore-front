@@ -4,8 +4,6 @@
 
 </div>
 
-#
-
 ![Logo do Markdown](https://github.com/ValdirCezar/bookstore-front/blob/master/src/assets/img/Demo.gif?raw=true)
 
 <p align="center">

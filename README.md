@@ -1,10 +1,10 @@
 <div align="center">
 
-## Projeto para o curso Spring Boot 2.x com Angular 10 e 11 desenvolvido por Valdir Cezar
+## Projeto para o curso Spring Boot 2.x com Angular 11 desenvolvido por Valdir Cezar
 
 </div>
 
-![Logo do Markdown](https://github.com/ValdirCezar/bookstore-front/blob/master/src/assets/img/Demo.gif?raw=true)
+![Logo do Markdown](https://github.com/ValdirCezar/todo-my-course/blob/master/front/src/assets/img/Captura2.PNG?raw=true)
 
 <p align="center">
 <img src="https://img.shields.io/badge/HTML%20-%23F7DF1E.svg?&style=for-the-badge&color=E34F26" />&nbsp;&nbsp;
@@ -25,13 +25,11 @@
 </p>
 
 #
-#### Esse é um sistemas completo que desenvolvemos usando as tecnologias Spring Boot 2.x para desenvolver uma API REST com boas práticas de Engenharia de Software onde hospedamos a mesma na plataforma Herokun e posteriormente criamos um sistema Frontend com o framework Angular 10 e 11 para consumir nossa API. Nossa aplicação foi hospedada no Github Pages e está disponível no link https://valdircezar.github.io/bookstore/
+#### Esse é um sistemas completo que desenvolvemos usando as tecnologias Spring Boot 2.x para desenvolver uma API REST com boas práticas de Engenharia de Software onde hospedamos a mesma na plataforma Heroku e posteriormente criamos um sistema Frontend com o framework Angular 11 para consumir nossa API. Nossa aplicação foi hospedada no Github Pages
 
 Obs: Utilizamos a conta free Heroku e após 30 minutos a API entra em modo sleeping então na próxima requisição a mesma pode demorar certa de 30 segundos para responder
 #
 
 Link para o canal: https://www.youtube.com/channel/UCjg5LPj5DEZXWEqG6yzNxmQ
-
-Link para curso com certificado: https://www.udemy.com/course/draft/3708886/?referralCode=003BA46D1109483E9274
 
 #
